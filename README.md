@@ -15,7 +15,8 @@ Após a obtenção dos dados, utilizei esses teoremas e tecnologias:
 #### Modelagem Vetorial com TF-IDF (NLP): 
 A técnica Term Frequency-Inverse Document Frequency foi utilizada para estruturar os dados não estruturados. Isso converteu os textos em uma Matriz Termo-Documento, onde cada vetor representa a relevância estatística das palavras, criando a base para o Reconhecimento de Padrões.
 
-#### Decomposição em Valores Singulares (SVD):A tecnologia central do trabalho foi a fatoração matricial $A = U\Sigma V^{\top}$, implementada com numpy. Calculei explicitamente os vetores singulares para isolar a estrutura semântica latente dos ruídos linguísticos.
+#### Decomposição em Valores Singulares (SVD):
+A tecnologia central do trabalho foi a fatoração matricial $A = U\Sigma V^{\top}$, implementada com numpy. Calculei explicitamente os vetores singulares para isolar a estrutura semântica latente dos ruídos linguísticos.
 
 #### Análise Espectral e Redução de Dimensionalidade:
 A seleção da dimensão $k$ foi governada através do Cálculo da Norma de Frobenius ($\|A\|_F^2 = \sum \sigma_i^2$) para quantificar a informação total da matriz. Utilizei também a curva de variância acumulada para determinar a melhor Aproximação de Posto Baixo, garantindo que o subespaço vetorial escolhido preservasse a variância necessária para a classificação, descartando dimensões de ruído.
