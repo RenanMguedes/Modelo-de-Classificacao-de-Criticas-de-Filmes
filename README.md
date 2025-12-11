@@ -22,3 +22,8 @@ A seleção da dimensão $k$ foi governada através do Cálculo da Norma de Frob
 
 #### Classificação via Modelos Aproximados:
 Para a predição final, usei Regressão Logística. O modelo foi treinado para otimizar uma fronteira de decisão (função sigmoide) dentro do espaço reduzido pelo SVD, aprendendo a distinguir a polaridade dos vetores geométricos resultantes com alta eficiência computacional.
+
+
+Com a função analisar_frase(), colocamos como input uma string que seria nossa avaliação, e assim, nosso modelo retornaria o Sentimento (POS ou NEG) que ele acha que seria mais condizente e a 
+porcentagem de certeza que ele tem sobre a sua opinião: 
+![imagem de demonstração](https://github.com/RenanMguedes/Modelo-de-Classificacao-de-Criticas-de-Filmes/blob/main/imagem%20de%20demonstra%C3%A7%C3%A3o.png)
